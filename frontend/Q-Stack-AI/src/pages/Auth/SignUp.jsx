@@ -75,7 +75,7 @@ function SignUp({setCurrentPage}) {
     <div className='w-[90vw] md:w-[33vw] p-7 flex flex-col justify-center '>
       <h3 className="text-lg font-semibold text-black">Create an Account</h3>
       <p className="text-xs text-slate-700 mt-[5px] mb-6 ">
-        Join us today and unlock the power of Q-Stack AI. Note: <span className=' font-bold '>Note: "It might tak a while to load innitially"</span>
+        Join us today and unlock the power of Q-Stack AI. <span className=' text-red-600 font-bold '>Note: "It might tak a while to load innitially"</span>
       </p>
 
       <form onSubmit={handleSignUp}>

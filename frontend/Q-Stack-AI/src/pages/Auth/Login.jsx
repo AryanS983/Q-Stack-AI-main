@@ -52,7 +52,7 @@ function Login({setCurrentPage}) {
     <div className='w-[90vw] md:w-[33vw] p-7 flex flex-col justify-center '>
       <h3 className="text-lg font-semibold text-black">Welcome Back</h3>
       <p className="text-xs text-slate-700 mt-[5px] mb-6 " >
-        Please enter your details to login. <span className=' font-bold '>Note: "It might tak a while to load innitially"</span>
+        Please enter your details to login. <span className=' text-red-600 font-bold '>Note: "It might tak a while to load innitially"</span>
       </p>
 
       <form action="" onSubmit={handleLogin}>
